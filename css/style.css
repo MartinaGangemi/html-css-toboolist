@@ -1,30 +1,27 @@
-html{
-    box-sizing: border-box;
-}
 body{
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     background-color:#F6F8F9;
     margin: 0;
 }
 
+
+/*header*/
 header{
     background-color: white;
-   
  }
 
- #logo{
+#logo{
       width: 70px;
   }
 
-  h1{
+h1{
     display: inline-block;
     vertical-align: text-bottom;
   }
 
-  h2{
-    color: #444851;
-}
 
+/*main*/
   #container{
     margin: 0 auto;
     background-color: white;
@@ -33,23 +30,23 @@ header{
     border-radius: 10px;
  }
 
-.container_button{
-      padding: 2rem 4rem 1rem;
+.container_button,.container {
+    padding: 2rem 4rem 1rem;
   }
 
- .container{
-    padding: 2rem 4rem 1rem;
- }
-  
+ h2,p{
+    color: #444851;
+}
 
-  #linea {
-      border-bottom: 2px solid   #F6F8F9;
-      margin: 0;
+#linea {
+    border-bottom: 2px solid   #F6F8F9;
+    margin: 0;
  }
  
-  section{
-      margin-bottom: 3rem;
+section{
+    margin-bottom: 3rem;
   }
+  
 
   /*symbols*/
 .checkmark {
@@ -83,6 +80,8 @@ header{
     padding-right: 1rem;
     border-radius: 0.75rem ;
     vertical-align: middle;
+    color: white;
+    border: none;
 }
 
 .task{
@@ -101,24 +100,24 @@ header{
 
 .editorial{
     background-color: #09A9ED;
-    color: white;
-    border: none;
 }
 
 .goals{
     background-color:  #AB5DE6;
-    color: white;
-    border: none;
 }
 
 .recruiting{
     background-color:  #2CC6AB;
-    color: white;
-    border: none;
 }
 
 .mobile{
     background-color: #FF9B00;
-    color: white;
-    border: none;
+}
+
+.website{
+    background-color:  #EC4A9D;
+}
+
+.sales{
+    background-color: #A3D116;
 }
