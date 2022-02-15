@@ -27,35 +27,64 @@ header{
     width: 70%;
     margin-top: 3rem;
     border-radius: 10px;
-   
 
   }
 
-  #container_button{
+  .container_button{
       padding: 2rem 4rem 1rem;
   }
-
-  button{
-      height: 2rem;
-  }
-
-  #task{
-      color: white;
-      background-color:  #14AAF5;
-      border: none;
-      border-radius: 0.25rem;
-      padding: 0.5rem;
-  }
-
-  #section{
-      color: #CFD5D9;
-      border:1px solid #CFD5D9;
-      border-radius: 0.25rem ;
-      background-color: white;
-  }
+ .container{
+    padding: 2rem 4rem 1rem;
+ }
+  
 
   #linea {
       border-bottom: 2px solid   #F6F8F9;
       margin: 0;
       
   }
+ 
+.checkmark {
+    color: #2CC6AB;
+    border: 1px solid #2CC6AB;
+    padding: 1px 4px;
+    border-radius: 50%;
+  }
+  /*button type*/
+
+ .button1{
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.button{
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.75rem ;
+    vertical-align: middle;
+}
+
+
+.task{
+    color: white;
+    background-color:  #14AAF5;
+    border: none;
+    padding: 0.5rem;
+}
+
+.section{
+    color: #CFD5D9;
+    border:1px solid #CFD5D9;
+    background-color: white;   
+}
+
+
+.editorial{
+    background-color: #09A9ED;
+    color: white;
+    border: none;
+}
