@@ -17,16 +17,45 @@ header{
   }
 
   h1{
-      display: inline-block;
+    display: inline-block;
     vertical-align: text-bottom;
   }
 
   #container{
-      margin: 0 auto;
-      background-color: white;
-      width: 60%;
-     margin-top: 3rem;
-     border-radius: 10px;
-     padding: 25px 100px 25px ;
+    margin: 0 auto;
+    background-color: white;
+    width: 70%;
+    margin-top: 3rem;
+    border-radius: 10px;
+   
 
+  }
+
+  #container_button{
+      padding: 2rem 4rem 1rem;
+  }
+
+  button{
+      height: 2rem;
+  }
+
+  #task{
+      color: white;
+      background-color:  #14AAF5;
+      border: none;
+      border-radius: 0.25rem;
+      padding: 0.5rem;
+  }
+
+  #section{
+      color: #CFD5D9;
+      border:1px solid #CFD5D9;
+      border-radius: 0.25rem ;
+      background-color: white;
+  }
+
+  #linea {
+      border-bottom: 2px solid   #F6F8F9;
+      margin: 0;
+      
   }
