@@ -12,7 +12,7 @@ header{
    
  }
 
-  #logo{
+ #logo{
       width: 70px;
   }
 
@@ -21,18 +21,22 @@ header{
     vertical-align: text-bottom;
   }
 
+  h2{
+    color: #444851;
+}
+
   #container{
     margin: 0 auto;
     background-color: white;
     width: 70%;
     margin-top: 3rem;
     border-radius: 10px;
+ }
 
-  }
-
-  .container_button{
+.container_button{
       padding: 2rem 4rem 1rem;
   }
+
  .container{
     padding: 2rem 4rem 1rem;
  }
@@ -41,15 +45,28 @@ header{
   #linea {
       border-bottom: 2px solid   #F6F8F9;
       margin: 0;
-      
-  }
+ }
  
+  section{
+      margin-bottom: 3rem;
+  }
+
+  /*symbols*/
 .checkmark {
     color: #2CC6AB;
     border: 1px solid #2CC6AB;
     padding: 1px 4px;
     border-radius: 50%;
   }
+
+.x {
+    color: red;
+    border: 1px solid red;
+    padding: 1px 4px;
+    border-radius: 50%;
+  }
+
+
   /*button type*/
 
  .button1{
@@ -68,7 +85,6 @@ header{
     vertical-align: middle;
 }
 
-
 .task{
     color: white;
     background-color:  #14AAF5;
@@ -85,6 +101,24 @@ header{
 
 .editorial{
     background-color: #09A9ED;
+    color: white;
+    border: none;
+}
+
+.goals{
+    background-color:  #AB5DE6;
+    color: white;
+    border: none;
+}
+
+.recruiting{
+    background-color:  #2CC6AB;
+    color: white;
+    border: none;
+}
+
+.mobile{
+    background-color: #FF9B00;
     color: white;
     border: none;
 }
